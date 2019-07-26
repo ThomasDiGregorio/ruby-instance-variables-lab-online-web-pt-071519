@@ -12,4 +12,4 @@ end
 spike = Dog.new 
 spike.name = 'spike'
 
-puts spike.name 
+spike.name 
