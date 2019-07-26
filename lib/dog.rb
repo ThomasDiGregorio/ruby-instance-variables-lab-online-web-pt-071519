@@ -1,5 +1,5 @@
 class Dog 
-  def name ; (dog_name)
+  def name=(dog_name)
     @this_dogs_name = dogs_name
   end
   
@@ -10,6 +10,6 @@ class Dog
 end
 
 spike = Dog.new 
-spike.name ; 'spike'
+spike.name = 'spike'
 
 puts spike.name 
